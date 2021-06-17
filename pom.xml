@@ -39,7 +39,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <tomcat.version>8.5.23</tomcat.version>
+        <tomcat.version>8.5.51</tomcat.version>
         <lucene.version>4.10.4</lucene.version>
     </properties>
 
@@ -164,7 +164,7 @@
         <dependency>
             <groupId>org.apache.tika</groupId>
             <artifactId>tika-parsers</artifactId>
-            <version>1.16</version>
+            <version>1.26</version>
             <exclusions>
                 <exclusion>
                     <groupId>org.ow2.asm</groupId>
@@ -225,7 +225,7 @@
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
-            <version>4.5.3</version>
+            <version>4.5.7</version>
         </dependency>
 
         <dependency>
@@ -250,7 +250,7 @@
         <dependency>
             <groupId>com.googlecode.owasp-java-html-sanitizer</groupId>
             <artifactId>owasp-java-html-sanitizer</artifactId>
-            <version>20171016.1</version>
+            <version>20190325.1</version>
         </dependency>
         
         <dependency>
