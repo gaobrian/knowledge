@@ -39,7 +39,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <tomcat.version>8.5.23</tomcat.version>
+        <tomcat.version>9.0.106</tomcat.version>
         <lucene.version>4.10.4</lucene.version>
     </properties>
 
@@ -238,7 +238,7 @@
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
-            <version>1.3.3</version>
+            <version>1.6.0</version>
         </dependency>
 
         <dependency>
